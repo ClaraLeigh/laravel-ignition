@@ -240,6 +240,7 @@ return [
      */
 
     'open_ai_key' => env('IGNITION_OPEN_AI_KEY'),
+    'open_ai_model' => env('IGNITION_OPEN_AI_MODEL', 'gpt-3.5-turbo'),
 
     /*
     |--------------------------------------------------------------------------
